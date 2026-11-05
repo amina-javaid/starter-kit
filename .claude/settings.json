@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python checks/preflight.py)",
+      "Bash(python3 checks/preflight.py)",
+      "Bash(python checks/profile.py:*)",
+      "Bash(python3 checks/profile.py:*)",
+      "Bash(python checks/l02.py)",
+      "Bash(python3 checks/l02.py)",
+      "Bash(python checks/l03.py)",
+      "Bash(python3 checks/l03.py)",
+      "Bash(python checks/l04.py)",
+      "Bash(python3 checks/l04.py)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Edit(./checks/**)",
+      "Write(./checks/**)"
+    ]
+  }
+}
